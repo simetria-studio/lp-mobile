@@ -7,6 +7,7 @@
 body {
     background-image: url("/assets/img/mbg.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 // home
@@ -68,18 +69,18 @@ body {
     .rapaz {
         width: 254px;
         height: 413px;
-        margin: 23px auto;
+        margin: 0 auto ;
         img {
             width: 100%;
             height: 100%;
         }
     }
     .peixe {
-        width: 195px;
+        width: 250px;
         margin: 0 auto;
+        // margin-left: 71px;
         h1 {
             color: #03568a;
-            //styleName: H1 - mobile;
             font-family: Rubik;
             font-size: 25px;
             font-style: normal;
@@ -90,9 +91,10 @@ body {
         }
     }
     .queremos {
-        width: 231px;
-        margin-top: 20px;
-        margin-left: 120px;
+        padding-top: 25px;
+        width: 250px;
+        margin: 0 auto;
+        // margin-left:70px ;
         h2 {
             color: #fff;
             font-family: Rubik;
@@ -101,15 +103,16 @@ body {
             font-weight: 400;
             line-height: 18px;
             letter-spacing: 0em;
-            text-align: left;
         }
     }
     .descarregue {
-        margin-top: 40px;
+        padding-top: 25px;
+        margin-bottom: 50px;
         display: flex;
         justify-content: center;
         .btn-descarregue {
-            width: 289px;
+            width: 100%;
+            max-width: 289px;
             height: 51px;
             display: flex;
             align-items: center;
@@ -117,14 +120,10 @@ body {
             background-color: #03568a;
             color: #fff;
             border-radius: 11px;
-            //styleName: Text - Button;
             font-family: Rubik;
             font-size: 22px;
-            font-style: normal;
             font-weight: 900;
-            line-height: 24px;
             letter-spacing: 0em;
-            text-align: center;
         }
     }
 }
@@ -155,7 +154,7 @@ body {
         }
     }
     .icones {
-        margin: 40px auto;
+        margin: 40px auto 0;
         display: flex;
         width: 300px;
         justify-content: space-between;
@@ -163,7 +162,7 @@ body {
     .registate {
         width: 289px;
         height: 51px;
-        margin: 0 auto;
+        margin:31px auto 117px;
         .btn-registate {
             display: flex;
             align-items: center;
@@ -180,7 +179,6 @@ body {
             font-weight: 900;
             line-height: 24px;
             letter-spacing: 0em;
-            text-align: center;
         }
     }
 }

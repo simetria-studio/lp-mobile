@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="registate">
-            <a href="" class="btn btn-registate">REGISTA-TE</a>
+            <a href="https://jae51b80yiv.typeform.com/to/XlitjZVD" class="btn btn-registate">REGISTA-TE</a>
         </div>
     </div>
 @endsection
